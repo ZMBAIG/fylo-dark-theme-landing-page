@@ -116,6 +116,7 @@ li a:hover {
   gap: 50px;
   width: 60%;
   margin: 50px auto;
+  padding-top: 60px;
 }
 .access-your-files h2 {
   padding: 12px 0;
