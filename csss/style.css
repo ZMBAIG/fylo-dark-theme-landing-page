@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: red 1px solid; */
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: hsl(216, 53%, 9%);
+
+  color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+/* ----------------------------------------------------------------- */
+header {
+  background: hsl(219, 30%, 18%);
+  background-image: url(../images/illustration-intro.png),
+    url(../images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center top 50px, top 350px center;
+  background-size: 400px, 1500px 300px;
+  height: 600px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.logo {
+  width: 100px;
+}
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+.nav-menu a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.navbar button {
+  background-color: transparent;
+  border: none;
+  color: hsl(0, 0%, 100%);
+}
+.navbar button:hover {
+  cursor: pointer;
+  border-bottom: 2px solid hsl(0, 0%, 100%);
+}
+li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+li a:hover {
+  font-weight: 700;
+  border-bottom: 2px solid hsl(0, 0%, 100%);
+}
+.all-your-files {
+  position: relative;
+  top: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 45%;
+}
+.all-your-files h1 {
+  padding: 20px 0;
+  font-size: 2rem;
+}
+.all-your-files p {
+  max-width: 70%;
+}
+.all-your-files button {
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: hsl(0, 0%, 100%);
+  padding: 12px 30px;
+  margin: 20px 0;
+  width: 250px;
+  border: none;
+  border-radius: 30px;
+}
+.all-your-files button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+/* ----------------------------------------------------------------- */
+#wrapper {
+  background: hsl(218, 28%, 13%);
+  display: grid;
+  place-content: center;
+}
+/* ----------------------------------------------------------------- */
+
+.access-your-files {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  gap: 50px;
+  width: 60%;
+  margin: 50px auto;
+}
+.access-your-files h2 {
+  padding: 12px 0;
+}
+.access-your-files article {
+  text-align: center;
+}
+.access-your-files article img {
+  max-width: 100%;
+  height: 80px;
+}
+.stay-productive {
+  display: grid;
+  width: 90%;
+  margin: 50px auto;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.stay-productive p {
+  padding: 20px 0;
+}
+.stay-productive a {
+  color: hsl(176, 68%, 64%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+/* ----------------------------------------------------------------- */
+
+.quotes {
+  position: relative;
+  left: 65px;
+  bottom: -30px;
+}
+.flyo-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: 30px auto;
+  gap: 30px;
+}
+
+.flyo-cards article {
+  background-color: hsl(219, 30%, 18%);
+  padding: 25px;
+  border-radius: 6px;
+  z-index: 1;
+}
+.flyo-cards article img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.profile-card {
+  display: flex;
+  gap: 12px;
+  padding: 15px 0;
+}
+.profile-card p {
+  font-size: 8px;
+}
+.profile-card h3 {
+  font-size: 12px;
+}
+/* ----------------------------------------------------------------- */
+
+.get-early-access {
+  background-color: hsl(217, 28%, 15%);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  gap: 8px;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 12px;
+  font-size: 10px;
+  position: relative;
+  bottom: -40%;
+  z-index: 1;
+}
+.get-early-access h4 {
+  font-size: 2rem;
+}
+.get-early-access p {
+  text-align: center;
+  width: 50%;
+}
+.get-early-access button {
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: hsl(0, 0%, 100%);
+  padding: 12px 30px;
+  margin: 20px 0;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+}
+.get-early-access button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+form p {
+  display: block;
+}
+input[type="email"] {
+  appearance: none;
+  width: 300px;
+  border-radius: 30px;
+  padding: 12px 30px;
+}
+/* This is the style of our error messages */
+.error {
+  padding: 0;
+  font-size: 1rem;
+  color: hsl(0, 100%, 63%);
+  position: relative;
+  bottom: -10px;
+  left: -5px;
+}
+.error.active {
+  padding: 0.3em;
+}
+
+/* ----------------------------------------------------------------- */
+footer {
+  display: grid;
+  padding: 50px 0;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  background-color: hsl(216, 53%, 9%);
+}
+.flyo-footer {
+  display: flex;
+  padding: 30px;
+  gap: 60px;
+  font-size: 12px;
+}
+.phone-email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: 50%;
+}
+.phone-email img {
+  margin-right: 12px;
+}
+.location-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}
+.about-us,
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 50%;
+}
+.social-media {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.social-media i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  padding: 16px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.social-media i:hover {
+  cursor: pointer;
+  color: hsl(176, 68%, 64%);
+  border: 2px solid hsl(176, 68%, 64%);
+}
+footer .logo {
+  padding-left: 30px;
+}
+.attribution {
+  background-color: hsl(216, 53%, 9%);
+
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* ----------------------------------------------------------------- */

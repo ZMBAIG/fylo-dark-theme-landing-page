@@ -1,0 +1,134 @@
+@media only screen and (max-width: 768px) {
+  header {
+    background-image: url(../images/illustration-intro.png),
+      url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top 100px, top 350px center;
+    background-size: 300px, 1500px 300px;
+  }
+
+  #wrapper {
+    padding-bottom: 150px;
+  }
+
+  .all-your-files {
+    width: 100%;
+  }
+
+  .all-your-files h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    width: 80%;
+    text-align: center;
+  }
+  .all-your-files p {
+    font-weight: 300;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .access-your-files {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+    gap: 50px;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .access-your-files article {
+    margin: auto 50px;
+  }
+  .stay-productive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arrow {
+    max-width: 20px;
+  }
+  .quotes {
+    position: relative;
+    left: 30px;
+    bottom: -10px;
+  }
+
+  .flyo-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0px auto;
+    gap: 30px;
+  }
+  .stay-productive img {
+    width: 90%;
+  }
+  .stay-productive {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrow {
+    width: 40px;
+  }
+  .get-early-access {
+    display: grid;
+    width: 90%;
+  }
+  .get-early-access h4 {
+    font-size: 1.5rem;
+  }
+  .get-early-access p {
+    width: 85%;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 8px;
+  }
+  .get-early-access button {
+    width: 90%;
+  }
+  input[type="email"] {
+    width: 100%;
+    position: relative;
+  }
+  .error {
+    padding: 0;
+    font-size: 0.75rem;
+    color: hsl(0, 100%, 63%);
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+  }
+  .error.active {
+    padding: 0.3em;
+  }
+  footer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .flyo-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  footer .logo {
+    padding-left: 30px;
+    width: 50%;
+  }
+  .phone-email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 200px;
+  }
+  .location-footer {
+    width: 65%;
+  }
+}
